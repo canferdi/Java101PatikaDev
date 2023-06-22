@@ -26,7 +26,7 @@ public class GradeAverage {
 
         double average = (math + physic + chemistry + eng + history + music) / 6;
 
-        String result = (average > 60) ? "Passed the class" : "Failed the class";
+        String result = (average >= 60) ? "Passed the class" : "Failed the class";
 
         System.out.println("Your greade average: " + average);
         System.out.println(result);
