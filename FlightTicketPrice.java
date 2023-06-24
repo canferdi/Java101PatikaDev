@@ -7,13 +7,13 @@ public class FlightTicketPrice {
         double distance, totalPrice, PERPRİCE = 0.10;
         int flightType, age;
 
-        System.out.print("Yaşınız: ");
-        age = input.nextInt();
-
         System.out.print("Gideceğiniz mesafe(km): ");
         distance = input.nextDouble();
 
-        System.out.println("Yolculuk tipi(1-Tek yön, 2- Gidiş dönüş): ");
+        System.out.print("Yaşınız: ");
+        age = input.nextInt();
+
+        System.out.print("Yolculuk tipi(1-Tek yön, 2- Gidiş dönüş): ");
         flightType = input.nextInt();
 
         totalPrice = distance * PERPRİCE;
@@ -21,7 +21,7 @@ public class FlightTicketPrice {
         if (distance > 0 && age > 0 && (flightType == 1 || flightType == 2)) {
 
             if (flightType == 2) { // Gidiş dönüş seçilirse %20 indirim
-                totalPrice *= 0.80;
+                totalPrice *= 1.60;
             }
 
             if (age < 12) { // 12 yaşından küçükse %50 indirim
