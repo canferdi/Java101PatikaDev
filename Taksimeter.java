@@ -15,5 +15,6 @@ public class Taksimeter {
         total = (total < 20) ? 20 : total;
 
         System.out.println("Ödenecek ücret: " + total + "₺");
+        input.close();
     }
 }

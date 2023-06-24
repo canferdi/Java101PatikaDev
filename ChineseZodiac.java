@@ -67,5 +67,6 @@ public class ChineseZodiac {
         }
 
         System.out.println("Çin Zodyağı Burcunuz: " + zodiac);
+        input.close();
     }
 }

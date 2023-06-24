@@ -17,6 +17,6 @@ public class BodyMassIndex {
         System.out.println("Kilonuz: " + weight + "kg");
         System.out.println("Boyunuz: " + height + "m");
         System.out.println("Beden kitle indeksiniz: " + bmi);
-
+        input.close();
     }
 }

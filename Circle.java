@@ -15,6 +15,6 @@ public class Circle {
         System.out.println("Dairenin yarıçapı: " + r + "cm");
         System.out.println("Dairenin çevresi: " + circ + "cm");
         System.out.println("Dairenin alanı: " + area + "cm²");
-
+        input.close();
     }
 }

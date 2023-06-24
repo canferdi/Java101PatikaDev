@@ -30,5 +30,6 @@ public class GradeAverage {
 
         System.out.println("Your greade average: " + average);
         System.out.println(result);
+        input.close();
     }
 }

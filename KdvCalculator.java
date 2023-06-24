@@ -15,5 +15,6 @@ public class KdvCalculator {
         System.out.println("Price: " + price);
         System.out.println("KDV: " + KDV);
         System.out.println("Price with KDV: " + kdvPrice);
+        input.close();
     }
 }

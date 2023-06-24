@@ -20,6 +20,6 @@ public class TriangleArea {
         area = Math.sqrt(u * (u - a) * (u - b) * (u - c));
 
         System.out.println("Alan: " + area);
-
+        input.close();
     }
 }

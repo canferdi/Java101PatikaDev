@@ -25,6 +25,7 @@ public class Greengrocer {
         total = armutKg * ARMUT + elmaKg * ELMA + domatesKg * DOMATES + muzKg * MUZ + patlıcanKg * PATLICAN;
 
         System.out.println("Toplam tutar: " + total + "TL");
+        input.close();
 
     }
 
