@@ -16,6 +16,8 @@ public class Fibonacci {
             temp2 = sum;
 
         }
+    input.close();
     }
+    
 
 }
