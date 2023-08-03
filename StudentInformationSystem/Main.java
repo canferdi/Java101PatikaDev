@@ -2,7 +2,7 @@ package StudentInformationSystem;
 
 public class Main {
     public static void main(String[] args) {
-        
+
         Course mat = new Course("Matematik", "MAT101", "MAT");
         Course fizik = new Course("Fizik", "FZK101", "FZK");
         Course kimya = new Course("Kimya", "KMY101", "KMY");
@@ -20,15 +20,13 @@ public class Main {
         student1.isPass();
 
         Student student2 = new Student("Güdük Necmi", 5, "2211133", mat, fizik, kimya);
-        student1.addBulkExamNote(100, 50, 40);
-        student1.isPass();
+        student2.addBulkExamNote(100, 50, 40);
+        student2.isPass();
 
         Student student3 = new Student("Hayta İsmail", 4, "221121312", mat, fizik, kimya);
-        student1.addBulkExamNote(50, 20, 40);
-        student1.isPass();
-
-
+        student3.addBulkExamNote(50, 20, 40);
+        student3.isPass();
 
     }
-    
+
 }
